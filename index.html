@@ -1,0 +1,972 @@
+<!DOCTYPE html>
+
+<html class="no-js" lang="zxx">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Quick Home Tutors: Uncover the Genius Within
+</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="apple-touch-icon" href="apple-touch-icon.html" />
+    <link rel="icon" href="images/favicon.png" type="image/x-icon" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/feather.css" />
+    <link rel="stylesheet" href="css/fontawesome/fontawesome.css" />
+    <link rel="stylesheet" href="css/select2.min.css" />
+    <link rel="stylesheet" href="css/splide.min.css" />
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
+
+  <body>
+    <!-- Preloader Start -->
+    <div class="tu-preloader">
+      <div class="tu-preloader_holder">
+        <img src="images/favicon.png" alt="laoder img" class="tu-logo" />
+        <div class="tu-loader"></div>
+      </div>
+    </div>
+    <div class="popup-overlay" id="popupOverlay">
+      <div class="popup">
+        <button class="close-btn" id="closeBtn">×</button>
+        <h3 class="popup__title">Need Specialized Tutorials? We are just a click away</h3>
+        <p class="popup__text">Register now for top-notch guidance from experienced mentors.
+            Find custom made pathways to help you reach your goals and
+            succeed in your learning journey.
+        </p>
+        <ul class="tu-banner_list tu-banner_list-two" style="margin-top: -30px;">
+            <li>
+              <a
+                href="student-details.html"
+                class="tu-primbtn tu-primbtn-gradient"
+                ><span>Start as student</span
+                ><i class="icon icon-chevron-right"></i
+              ></a>
+            </li>
+            <li>
+              <a href="tutor-details.html" class="tu-secbtn"
+                ><span>Join as Teacher</span><em>It’s Free!</em></a
+              >
+            </li>
+          </ul>
+      </div>
+    </div>
+    <script>
+      // Get the close button element
+      const closeBtn = document.getElementById("closeBtn");
+      // Get the popup overlay element
+      const popupOverlay = document.getElementById("popupOverlay");
+
+      // Add click event listener to close button
+      closeBtn.addEventListener("click", function () {
+        // Hide the popup overlay
+        popupOverlay.style.display = "none";
+      });
+    </script>
+    <!-- Preloader End -->
+    <!-- HEADER START -->
+    <header class="tu-header">
+      <nav class="navbar navbar-expand-xl tu-navbar">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html"
+            ><img src="images/logo.png" alt="Logo"
+          /></a>
+          <button
+            class="tu-menu"
+            aria-label="Main Menu"
+            data-bs-target="#navbarSupportedContent"
+            data-bs-toggle="collapse"
+          >
+            <i class="icon icon-menu"></i>
+          </button>
+          <div
+            class="collapse navbar-collapse tu-themenav"
+            id="navbarSupportedContent"
+          >
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="aboutus.html">
+                  About Us
+                  <!-- <span class="tu-tag">NEW</span> -->
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="student-details.html">
+                  Start as Student
+                  <span class="tu-tag">NEW</span>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="tutor-details.html"
+                  >Join as Teacher<span class="tu-tag tu-bggreen">FREE</span></a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- HEADER END -->
+    <!-- BANNER START -->
+    <div class="tu-banner">
+      <div class="container">
+        <!-- add 2 mobile number  -->
+        <div class="tu-banner_mobile">
+          <a
+            href="tel:+918354983936"
+            style="
+              color: green;
+              text-decoration: none;
+              display: inline-block;
+              margin-right: 10px;
+            "
+          >
+            <i class="icon icon-phone-call" style="font-size: 24px"></i>
+            <em style="margin-left: 5px; color: black">+91 8354983936</em>
+          </a>
+          <a
+            href="https://api.whatsapp.com/send?phone=918354983936"
+            target="_blank"
+            style="color: #25d366; text-decoration: none; display: inline-block"
+          >
+            <i class="fab fa-whatsapp" style="font-size: 24px"></i>
+            <em style="margin-left: 5px; color: black">+91 9616598203</em>
+          </a>
+        </div>
+
+        <div class="row align-items-center g-0 gy-5">
+          <div class="col-lg-6">
+            <div class="tu-banner_title">
+              <h1>
+                Education <span> elevates </span>and empowers individuals By
+              </h1>
+              <span class="tu-bannerinfo type"></span>
+              <p>
+                We understand the value of education and make our effort to
+                provide hassle-free and expert guidance at your fingertips!
+              </p>
+              <ul class="tu-banner_list">
+                <li>
+                  <div class="tu-starthere">
+                    <span>Start from here</span>
+                    <img src="images/knob_line.svg" alt="img" />
+                  </div>
+                  <a
+                    href="student-details.html"
+                    class="tu-primbtn tu-primbtn-gradient"
+                    ><span>Start as student</span
+                    ><i class="icon icon-chevron-right"></i
+                  ></a>
+                </li>
+                <li>
+                  <a href="tutor-details.html" class="tu-secbtn"
+                    ><span>Join as teacher</span><em>It’s Free!</em></a
+                  >
+                </li>
+              </ul>
+              <div class="tu-banner_explore">
+                <i class="icon icon-shield"></i>
+                <p>
+                  You can also join as parent to explore
+                  <a href="tutor-details.html">Join today</a>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 d-none d-lg-block">
+            <div class="tu-bannerv1_img">
+              <img src="images/index/banner/img-02.png" alt="img" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- BANNER END -->
+    <!-- MAIN START -->
+    <main class="tu-main">
+      <!-- BRANDS START -->
+
+      <!-- BRANDS END -->
+      <main class="tu-main tu-bgmain">
+        <section class="tu-main-section">
+          <div class="container">
+            <div class="row justify-content-center">
+              <div class="col-lg-8">
+                <div class="tu-maintitle text-center">
+                  <h4>Making ease for everyone</h4>
+                  <h2>We made it in easy way</h2>
+                </div>
+              </div>
+            </div>
+            <div class="row tu-howit-steps gy-4">
+              <div class="col-12 col-md-6 col-xl-4">
+                <div class="tu-howit-steps_content">
+                  <figure>
+                    <img src="images/how-it-work/img-01.jpg" alt="images" />
+                  </figure>
+                  <div class="tu-howit-steps_info">
+                    <span class="tu-step-tag tu-orange-bgclr">STEP 01</span>
+                    <h5>Create Your Profile with us</h5>
+                    <p>
+                      - If you're a student seeking a tutor input your learning
+                      needs to match with suitable tutors.
+                      <br />
+                      - If you are a tutor looking for tuition jobs, sign up and
+                      complete your profile detailing your qualifications.
+                    </p>
+                    <br />
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-md-6 col-xl-4">
+                <div class="tu-howit-steps_content">
+                  <figure>
+                    <img src="images/how-it-work/img-02.jpg" alt="images" />
+                  </figure>
+                  <div class="tu-howit-steps_info">
+                    <span class="tu-step-tag tu-purple-bgclr">STEP 02</span>
+                    <h5>Connect and Assess</h5>
+                    <p>
+                      - In the next step, students can schedule a complimentary
+                      trial session with a matched teacher to evaluate
+                      compatibility.
+                      <br />
+                      - Whereas tutors, start receiving requests from students
+                      looking for your expertise and schedule.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-xl-4">
+                <div class="tu-howit-steps_content">
+                  <figure>
+                    <img src="images/how-it-work/img-03.jpg" alt="images" />
+                  </figure>
+                  <div class="tu-howit-steps_info">
+                    <span class="tu-step-tag tu-green-bgclr">STEP 03</span>
+                    <h5>Confirm and Begin</h5>
+                    <p>
+                      - Students, after the demo, need to confirm a preferred
+                      tutor to start a personalized learning journey.
+                      <br />
+                      - Tutors need to select suitable student requests to begin
+                      teaching and earning.
+                    </p>
+                    <br />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+      <!-- PLATFORM START -->
+      <section class="tu-main-section">
+        <div class="container">
+          <div class="row align-items-center gy-4">
+            <div class="col-md-12 col-lg-6">
+              <div class="tu-maintitle p-0">
+                <img src="images/zigzag-line.svg" alt="img" />
+                <h4>Unlock Potential, Elevate Learning</h4>
+                <h2>
+                  The Personalized Learning Platform Fitting to Individual
+                  Educational Needs
+                </h2>
+                <p>
+                  At Quick Home Tutors, we connect experienced educators with
+                  students seeking academic success. From personalized 1-on-1
+                  sessions to expert guidance, our team of 6000+ tutors empower
+                  students to excel in all subjects and grade levels. And the
+                  best part is there is no registration fees, we follow a
+                  completely transparent process.
+                </p>
+                <a href="aboutus.html" class="tu-primbtn-lg"
+                  ><span>Explore more about us</span
+                  ><i class="icon icon-chevron-right"></i
+                ></a>
+              </div>
+            </div>
+            <div class="col-md-12 col-lg-6">
+              <div class="tu-betterresult">
+                <figure>
+                  <img
+                    src="images/index/banner/img-07.png"
+                    alt="image-description"
+                  />
+                </figure>
+                <img
+                  src="images/index/platform/img-02.png"
+                  alt="image-description"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="tu-main-section">
+        <div class="container">
+          <div class="row align-items-center gy-4">
+            <div class="col-md-12 col-lg-6">
+              <div class="tu-betterresult">
+                <figure>
+                  <img
+                    src="images/index/platform/img-01.png"
+                    alt="image-description"
+                  />
+                </figure>
+                <img
+                  src="images/index/platform/img-02.png"
+                  alt="image-description"
+                />
+                <!-- <div class="tu-resultperson">
+                                <h6>Founder & CEO</h6>
+                                <h5>Allen wake</h5>
+                            </div> -->
+              </div>
+            </div>
+            <div class="col-md-12 col-lg-6">
+              <div class="tu-maintitle p-0">
+                <img src="images/zigzag-line.svg" alt="img" />
+                <h4>Click, Connect, Conquer</h4>
+                <h2>Know Why To Choose Us For Your Learning Journey</h2>
+                <p>
+                  At Quick Home Tutors, we ignite a love of learning. Unlike
+                  traditional classrooms, our experienced educators focus on the
+                  students’ unique needs, unlocking their potential in any
+                  subject, from pre-nursery to Class XII. We make learning
+                  seamless and accessible to all.
+                </p>
+                <a href="aboutus.html" class="tu-primbtn-lg"
+                  ><span>Explore The Benefits</span
+                  ><i class="icon icon-chevron-right"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- SUCCESS START -->
+      <section id="tu-sucesstorsection">
+        <div class="tu-success-stories">
+          <div class="container">
+            <div class="tu-sucesstor_pattren">
+              <img src="images/index/success_stories/pattren.svg" alt="img" />
+            </div>
+            <div class="row tu-sucesstorslider_title">
+              <div class="col-lg-8">
+                <div class="tu-maintitle">
+                  <h2>
+                    Discover Inspiring Stories: Hear from Our
+                    <span>Valued Community!</span>
+                  </h2>
+                </div>
+              </div>
+            </div>
+            <div
+              id="tu-sucesstorslider"
+              class="splide tu-sucesstorslider tu-splidearrow"
+            >
+              <div class="splide__track">
+                <ul class="splide__list">
+                  <li class="splide__slide">
+                    <div class="tu-sucesstor">
+                      <div class="tu-sucesstor_img">
+                        <figure>
+                          <img
+                            src="images/index/success_stories/img-01.jpg"
+                            alt="img"
+                          />
+                          <figcaption>
+                            <img
+                              src="images/index/success_stories/comma.svg"
+                              alt="img"
+                            />
+                          </figcaption>
+                        </figure>
+                      </div>
+                      <div class="tu-sucesstor_title">
+                        <blockquote>
+                          “ I highly recommend Quick Home Tutors, the
+                          teacher-providing agency; it's the best I've ever
+                          used. Their honesty in fee payment to teachers is
+                          commendable, and the educators they provide are
+                          exceptionally well-qualified. A top-notch service
+                          overall! ”
+                        </blockquote>
+                        <h4>
+                          Sandeep saxena
+                          <!-- <span>2nd Standard, Manchester UK</span> -->
+                        </h4>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="splide__slide">
+                    <div class="tu-sucesstor">
+                      <div class="tu-sucesstor_img">
+                        <figure>
+                          <img
+                            src="images/index/success_stories/img-02.jpg"
+                            alt="img"
+                          />
+                          <figcaption>
+                            <img
+                              src="images/index/success_stories/comma.svg"
+                              alt="img"
+                            />
+                          </figcaption>
+                        </figure>
+                      </div>
+                      <div class="tu-sucesstor_title">
+                        <!-- <h3>
+                                                I highly recommend this platform, amazing experience
+                                                with fast delivery
+                                            </h3> -->
+                        <blockquote>
+                          “It is a great place to study and learn with qualified
+                          teachers and dedicated staff. Personal attention is
+                          given to each and every student. ”
+                        </blockquote>
+                        <h4>
+                          Vishwajeet singh
+                          <!-- <span>2nd Standard, Manchester UK</span> -->
+                        </h4>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="splide__slide">
+                    <div class="tu-sucesstor">
+                      <div class="tu-sucesstor_img">
+                        <figure>
+                          <img
+                            src="images/index/success_stories/img-03.jpg"
+                            alt="img"
+                          />
+                          <figcaption>
+                            <img
+                              src="images/index/success_stories/comma.svg"
+                              alt="img"
+                            />
+                          </figcaption>
+                        </figure>
+                      </div>
+                      <div class="tu-sucesstor_title">
+                        <blockquote>
+                          “I am happy to be a part of Quick home Tutors. As a
+                          tutor, I've had a fantastic experience working with
+                          them. The team is incredibly supportive, ensuring a
+                          seamless match between tutors and students. Not only
+                          do they prioritize the academic success of their
+                          students, but they also value and appreciate their
+                          tutors. ”
+                        </blockquote>
+                        <h4>
+                          Vardhan Rawat
+                          <!-- <span>2nd Standard, Manchester UK</span> -->
+                        </h4>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="splide__slide">
+                    <div class="tu-sucesstor">
+                      <div class="tu-sucesstor_img">
+                        <figure>
+                          <img
+                            src="images/index/success_stories/img-04.jpg"
+                            alt="img"
+                          />
+                          <figcaption>
+                            <img
+                              src="images/index/success_stories/comma.svg"
+                              alt="img"
+                            />
+                          </figcaption>
+                        </figure>
+                      </div>
+                      <div class="tu-sucesstor_title">
+                        <blockquote>
+                          “ The Quick Home Tutors is a very good platform for
+                          the tutors who wants to earn by working as home tutor
+                          as side hustle along with their academics.And also for
+                          the parents who want some good tutors for their
+                          children,Quick Home Tutors provide the best matched
+                          tutors for you as they have a detailed screening for
+                          enrolling any tutor who wants to work with them. ”
+                        </blockquote>
+                        <h4>
+                          Vishwajeet singh
+                          <!-- <span>2nd Standard, Manchester UK</span> -->
+                        </h4>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="splide__slide">
+                    <div class="tu-sucesstor">
+                      <div class="tu-sucesstor_img">
+                        <figure>
+                          <img
+                            src="images/index/success_stories/img-05.jpg"
+                            alt="img"
+                          />
+                          <figcaption>
+                            <img
+                              src="images/index/success_stories/comma.svg"
+                              alt="img"
+                            />
+                          </figcaption>
+                        </figure>
+                      </div>
+                      <div class="tu-sucesstor_title">
+                        <h3>
+                          I highly recommend this platform, amazing experience
+                          with fast delivery
+                        </h3>
+                        <blockquote>
+                          “ Their teaching method is conceptual, motivating and
+                          friendly. I can clear my doubt any time. They have
+                          very deep knowledge of subject and exam pattern, with
+                          all the guidance of their tutos, I scored 98% in
+                          Mathematics and 96% in Physics. And yet qualified in
+                          IIT MAINS with 12th rank. ”
+                        </blockquote>
+                        <h4>
+                          Frederick Hicks
+                          <span>2nd Standard, Manchester UK</span>
+                        </h4>
+                      </div>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="tu-main-section">
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-lg-8">
+              <div class="tu-maintitle text-center">
+                <h4>Expert Mentor, Exceptional Results</h4>
+                <h2>Need Specialized Tutorials? We are just a click away</h2>
+                <p>
+                  Register now for top-notch guidance from experienced mentors.
+                  Find custom made pathways to help you reach your goals and
+                  succeed in your learning journey.
+                </p>
+              </div>
+              <ul class="tu-banner_list tu-banner_list-two">
+                <li>
+                  <a
+                    href="student-details.html"
+                    class="tu-primbtn tu-primbtn-gradient"
+                    ><span>Start as student</span
+                    ><i class="icon icon-chevron-right"></i
+                  ></a>
+                </li>
+                <li>
+                  <a href="tutor-details.html" class="tu-secbtn"
+                    ><span>Join as Teacher</span><em>It’s Free!</em></a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="tu-main-section">
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-md-8">
+              <div class="tu-maintitle text-center">
+                <h4>Simplifying your experience</h4>
+                <h2>Got Questions? Find Your Answers Here!</h2>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-6 col-12">
+              <div>
+                <div class="accordion-item">
+                  <button class="accordion-header">
+                    What is Quick Home Tutor ? <span class="icon">+</span>
+                  </button>
+                  <div class="accordion-content">
+                    <p>
+                      Quick Home Tutor is a home tuition service platform. Where
+                      anyone can find Expert tutor in a click, without the
+                      hassle and tiresome ways of asking your family, friends,
+                      and neighbor for tuition teachers for them or their child.
+                      We help in connecting experienced, professional, and
+                      qualified home tutors with parents in a hassle-free way.
+                      We help home tutors in finding home tuitions near their
+                      area in a click.
+                    </p>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <button class="accordion-header">
+                    How can I register with Tutor as a Home Tutor?
+                    <span class="icon">+</span>
+                  </button>
+                  <div class="accordion-content">
+                    <p>
+                      Registering as a home tutor with Quick Home Tutor is
+                      fairly easy, you just need to follow these steps: <br />
+                      1. Fill in the Become Tutor form <br />
+                      2. Complete the profile by filling in all the required
+                      details. <br />
+                      3. Once you get verified by us you can apply to tuition
+                      jobs near your area you will also be notified about the
+                      home tuitions near your area. <br />
+                      4. Apply on the tuition jobs near your area. <br />
+                      5. Once you get selected you will be provided with the
+                      details of the tuition job and give 1 demo classes. <br />
+                      6. If your demo classes are done and parents select you,
+                      you can continue with classes.
+                    </p>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <button class="accordion-header">
+                    Is there any registration fee? <span class="icon">+</span>
+                  </button>
+                  <div class="accordion-content">
+                    <p>
+                      No. Registration as a tutor, with Quick Home Tutor, is
+                      completely free of cost. Though you have to show complete
+                      sincerity with the given tuition job. Any default with the
+                      given tuition job will result in you getting blacklisted.
+                      And no further tuitions will be given to you.
+                    </p>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <button class="accordion-header">
+                    Will I get paid for Demo classes?<span class="icon">+</span>
+                  </button>
+                  <div class="accordion-content">
+                    <p>
+                      As an industry practice, demo classes are for free. Demo
+                      class acts as an avenue for parents, students, and
+                      teachers to know each other before finalizing the tuition
+                      classes. You will NOT be paid for the demo class
+                    </p>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <button class="accordion-header">
+                    What will be the payment procedure?<span class="icon"
+                      >+</span
+                    >
+                  </button>
+                  <div class="accordion-content">
+                    <p>
+                      Quick Home Tutor will collect the first-month fees of the
+                      tuition in advance from parents, and you will receive the
+                      remaining fee(after the deduction of our commission) at
+                      the end of the first month by cash( you have to collect
+                      from our office), Bank and UPI transfer
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-12">
+              <div>
+                <div class="accordion-item">
+                  <button class="accordion-header">
+                    Do you charge every month from tuition fees?
+                    <span class="icon">+</span>
+                  </button>
+                  <div class="accordion-content">
+                    <p>
+                      No. We do not charge every month. We take a one-time
+                      percentage from the first-month fee which varies from 30%
+                      to 50%. This is taken to provide you with awesome service
+                      and comfort at which you get home tuitions in a click.
+                    </p>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <button class="accordion-header">
+                    How much can I earn as a Home Tutor?
+                    <span class="icon">+</span>
+                  </button>
+                  <div class="accordion-content">
+                    <p>
+                      The earning depends on various factors such as the classes
+                      you teach, your experience and qualification.
+                    </p>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <button class="accordion-header">
+                    Do I need to visit students' homes?
+                    <span class="icon">+</span>
+                  </button>
+                  <div class="accordion-content">
+                    <p>
+                      Yes, Quick Home Tutor is a home tutoring platform where
+                      teachers are required to travel to student's homes. We
+                      notify you about the tuition jobs which are near to you or
+                      the area which you have chosen while registering as a home
+                      tutor with us.
+                    </p>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <button class="accordion-header">
+                    What is the procedure to get tuitions?
+                    <span class="icon">+</span>
+                  </button>
+                  <div class="accordion-content">
+                    <p>
+                      Once, you have successfully registered with Quick Home
+                      Tutor. You will get notification of the tuition jobs which
+                      are best suited for you. You will have to apply to the
+                      tuition jobs and wait for processing your request if your
+                      application is approved, you will be provided with the
+                      details of tuition job. Thereafter you have fix demo class
+                      by contacting parents and give 2 days demo classes. If you
+                      are selected you can continue with the tuition given.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <script>
+      document.querySelectorAll(".accordion-header").forEach((button) => {
+        button.addEventListener("click", () => {
+          const accordionContent = button.nextElementSibling;
+
+          button.classList.toggle("active");
+
+          if (button.classList.contains("active")) {
+            accordionContent.style.maxHeight =
+              accordionContent.scrollHeight + "px";
+          } else {
+            accordionContent.style.maxHeight = 0;
+          }
+
+          // Close other open accordion items
+          document
+            .querySelectorAll(".accordion-header")
+            .forEach((otherButton) => {
+              if (otherButton !== button) {
+                otherButton.classList.remove("active");
+                otherButton.nextElementSibling.style.maxHeight = 0;
+              }
+            });
+        });
+      });
+    </script>
+    <!-- MAIN END -->
+    <!-- FOOTER START -->
+    <footer>
+      <div class="tu-footer">
+        <div class="container">
+          <div class="tu-footer_maintitle">
+            <h5>Explore from our huge collection</h5>
+            <h3>Approach tutors near to your house</h3>
+          </div>
+          <div class="row tu-footer_row ">
+            <div class="col-sm-6 col-md-4 col-lg-3">
+              <h5 class="tu-footertitle">Home Tutors by Category</h5>
+              <ul class="tu-footerlist">
+                <li><a>Pre-nursery </a></li>
+                <li><a>IX - X</a></li>
+                <li><a>Intermediate XI-XII</a></li>
+                <li><a>Arts/ Humanities</a></li>
+                <li><a>Commerce</a></li>
+                <li><a>Science</a></li>
+                <li><a>Computer Course</a></li>
+              </ul>
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-3">
+              <h5 class="tu-footertitle">Home Tutors by Class</h5>
+              <ul class="tu-footerlist">
+                <li><a>Playway</a></li>
+                <li><a>Nursery</a></li>
+                <li><a>Kindergarten</a></li>
+                <li><a>Class I</a></li>
+                <li><a>Class II</a></li>
+                <li><a>Class III</a></li>
+                <li><a>Class IV</a></li>
+              </ul>
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-3">
+              <h5 class="tu-footertitle">Home Tutors by Class</h5>
+              <ul class="tu-footerlist">
+                <li><a>Class V</a></li>
+                <li><a>Class VI</a></li>
+                <li><a>Class VII</a></li>
+                <li><a>Class VIII</a></li>
+                <li><a>Class IX</a></li>
+                <li><a>Class X</a></li>
+                <li><a>Class XI</a></li>
+              </ul>
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-3">
+              <h5 class="tu-footertitle">Home Tutors by Class</h5>
+              <ul class="tu-footerlist">
+                <li><a>Class XII</a></li>
+              </ul>
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-3">
+              <h5 class="tu-footertitle">HOME TUTORS BY SUBJECT</h5>
+              <ul class="tu-footerlist">
+                <li><a>Maths home tutors</a></li>
+                <li><a>Physics home tutors</a></li>
+                <li><a>Chemistry home tutors</a></li>
+                <li><a>Biology home tutors</a></li>
+                <li><a>Accounts home tutors</a></li>
+                <li><a>Psychology home Tutor</a></li>
+              </ul>
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-3">
+              <h5 class="tu-footertitle">HOME TUTORS BY SUBJECT</h5>
+              <ul class="tu-footerlist">
+                <li><a>Commerce home tutors</a></li>
+                <li><a>Economics home tutors</a></li>
+                <li><a>Humanities home tutors</a></li>
+                <li><a>English home tutors</a></li>
+                <li><a>Computer home tutors</a></li>
+              </ul>
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-3">
+              <h5 class="tu-footertitle">OTHER TUTORS</h5>
+              <ul class="tu-footerlist">
+                <li><a>Spoken English</a></li>
+                <li><a>Online tutors</a></li>
+                <li>
+                  <a>Entrance test preparation for Class Nursery to VIII</a>
+                </li>
+                <li>
+                  <a
+                    >Admission Test preparation for Class Nursery to VIII Army
+                    School , Central School etc</a
+                  >
+                </li>
+              </ul>
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-3">
+              <h5 class="tu-footertitle">Language Tutors</h5>
+              <ul class="tu-footerlist">
+                <li><a>French</a></li>
+                <li><a>German</a></li>
+                <li><a>English</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="tu-footerdark">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-7">
+              <strong class="tu-footerlogo">
+                <a href="index.html"
+                  ><img src="images/logo_white.png" alt="Logo"
+                /></a>
+              </strong>
+              <p class="tu-footerdescription">
+                Stay Connected with Quick Home Tutors: Your Pathway to
+                Excellence. Contact us for personalized tutoring solutions
+                today!
+              </p>
+              <ul class="tu-socialmedia">
+                <li class="tu-facebookv3">
+                  <a href="#" target="_blank"
+                    ><i class="fab fa-facebook-f"></i
+                  ></a>
+                </li>
+                <li class="tu-twitterv3">
+                  <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+                </li>
+                <li class="tu-linkedinv3">
+                  <a href="#" target="_blank"
+                    ><i class="fab fa-linkedin-in"></i
+                  ></a>
+                </li>
+                <li class="tu-instagramv3">
+                  <a href="#" target="_blank"
+                    ><i class="fab fa-instagram"></i
+                  ></a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-lg-5">
+              <h5 class="tu-footertitle">Feel free to share your question</h5>
+              <ul class="tu-footerlist tu-footericonlist">
+                <li>
+                  <a href="tel:+919616598203"
+                    ><i class="icon icon-phone-call"></i><em>+91 9616598203</em
+                    ><span>( Mon to Sun 9am - 11pm GMT )</span></a
+                  >
+                </li>
+                <li>
+                  <a href="mailto:quicktutors21@gmail.com"
+                    ><i class="icon icon-mail"></i
+                    ><em>quicktutors21@gmail.com</em></a
+                  >
+                </li>
+
+                <li>
+                  <a href="https://api.whatsapp.com/send?phone=918354983936" target="_blank"
+                    ><i class="fab fa-whatsapp"></i><em>+91 8354983936</em
+                    ><span>( Mon to Sun 9am - 11pm GMT )</span></a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+          <br /><br /><br />
+        </div>
+        <div class="tu-footercopyright">
+          <div class="container">
+            <div class="text-center">
+              <p>
+                ©<a href="https://www.linkedin.com/company/raylight-software/"
+                  >Raylight Softwares</a
+                >
+                <span id="currentYear"></span> All Rights Reserved.
+              </p>
+
+              <script>
+                document.getElementById("currentYear").textContent =
+                  new Date().getFullYear();
+              </script>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- FOOTER END -->
+    <!-- Custom Tooltip Render Here -->
+    <div class="tu-tippysm">
+      <span id="tu-verifed" class="d-none">
+        <span class="tu-tippytooltip">
+          <span>Verified</span>
+        </span>
+      </span>
+    </div>
+    <!-- Custom Tooltip Render Here -->
+    <script src="js/vendor/jquery.min.js"></script>
+    <script src="js/vendor/popper-core.js"></script>
+    <script src="js/vendor/bootstrap.min.js"></script>
+    <script src="js/vendor/appear.js"></script>
+    <script src="js/vendor/countTo.js"></script>
+    <script src="js/vendor/splide.min.js"></script>
+    <script src="js/vendor/select2.min.js"></script>
+    <script src="js/vendor/tippy.js"></script>
+    <script src="js/vendor/typed.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
