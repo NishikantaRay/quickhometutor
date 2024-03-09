@@ -2996,25 +2996,26 @@ input.tu-showplaceholder::placeholder {
   filter: drop-shadow(0px 2px 8px rgba(0, 0, 0, 0.06)) drop-shadow(0px 16px 24px rgba(0, 0, 0, 0.08));
 }
 
-.tu-sucesstor {
-  display: flex;
-  align-items: center;
-}
 .tu-sucesstor_img {
-  flex: none;
-  margin-right: 67px;
+  flex: 1; /* Allow the image to grow and shrink */
+  display: flex;
+  justify-content: center; /* Center the image horizontally */
 }
+
 .tu-sucesstor_img figure {
   position: relative;
   max-width: 593px;
   overflow: hidden;
-  margin: 0;
+  margin: 0 auto; /* Center the container horizontally */
   border-radius: 4px;
 }
+
 .tu-sucesstor_img figure > img {
   border-radius: inherit;
   width: 100%;
+  display: block; /* Ensure the image is displayed as a block element */
 }
+
 .tu-sucesstor_img figure figcaption {
   position: absolute;
   left: -30px;
