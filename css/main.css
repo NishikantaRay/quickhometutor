@@ -3687,7 +3687,7 @@ input.tu-showplaceholder::placeholder {
 
 /** ====== blog details page style ====== **/
 .tu-bgmain {
-  background-color: #F7F8FC;
+  /* background-color: #F7F8FC; */
 }
 
 .tu-asidewrapper {
@@ -5116,7 +5116,7 @@ input.tu-showplaceholder::placeholder {
 .tu-processing-holder {
   display: flex;
   align-items: center;
-  background-color: #ffffff;
+  /* background-color: #ffffff; */
 }
 
 .tu-processing-content {

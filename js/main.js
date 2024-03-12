@@ -87,6 +87,26 @@ jQuery(window).on("load", function() {
       } );
       splideslider.mount();
     }
+    var tu_sucesstorslider1 = document.getElementById('tu-sucesstorslider1')
+    if(tu_sucesstorslider1 !== null){
+      var splideslider = new Splide( '#tu-sucesstorslider1', {
+        type   : 'loop',
+        perPage: 1,
+        perMove: 1,
+        gap: 100,
+        autoplay: true,
+        interval: 3000,
+        pagination: false,
+        arrows: true,
+        breakpoints: {
+          1199: {
+            pagination: true,
+            arrows: false,
+          }
+        }
+      } );
+      splideslider.mount();
+    }
     //  Instructor Slider
     //  Feature Slider
     var tu_featurelist = document.getElementById('tu-featurelist')
